@@ -7,9 +7,11 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     color: black;
+    background-color: darkolivegreen;
 }
 .direction:hover{
     background-color: lightyellow;
+    color: lightcoral;
 }
 .LUKA{
     color: tomato;
@@ -17,4 +19,22 @@
 .POPOV{
     color: yellowgreen;
 }
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    color: green;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+tr:nth-child(even){
+    background-color: rgb(196, 237, 100);
+}
+
 
