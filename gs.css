@@ -52,7 +52,26 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: royalblue;
+    background-color: rgb(108, 225, 65);
+}
+.connection{
+    background-color: cadetblue;
+}
+li{
+    display: inline;
+    float: left;
+}
+li a{
+    display: inline-block;
+    color: crimson;
+    text-align: center;
+    padding: 15px, 20px;
+    text-decoration: darkgreen;
+    justify-content: center;
+}
+a{
+    display: block;
+    padding: 5px;
 }
 
 
